@@ -36,7 +36,8 @@
         '0': [[0,0,1,1,1,1,0,0],[0,1,0,0,0,0,1,0],[1,0,0,0,0,0,0,1],[1,0,0,0,1,0,0,1],[1,0,0,1,0,0,0,1],[1,0,1,0,0,0,0,1],[1,0,0,0,0,0,0,1],[0,1,0,0,0,0,1,0],[0,0,1,1,1,1,0,0],[0,0,0,0,0,0,0,0]],
         '8': [[0,0,1,1,1,1,0,0],[0,1,0,0,0,0,1,0],[1,0,0,0,0,0,0,1],[0,1,0,0,0,0,1,0],[0,0,1,1,1,1,0,0],[0,1,0,0,0,0,1,0],[1,0,0,0,0,0,0,1],[0,1,0,0,0,0,1,0],[0,0,1,1,1,1,0,0],[0,0,0,0,0,0,0,0]]
       };
-      const textQueue = ['HELLO', 'WELCOME', '8-BIT INTRO', 'FIREWORKS', 'RETRO STYLE', 'PIXEL MAGIC', 'ENJOY!', 'CODE BY HL'];
+<!--  const textQueue = ['HELLO', 'WELCOME', '8-BIT INTRO', 'FIREWORKS', 'RETRO STYLE', 'PIXEL MAGIC', 'ENJOY!', 'CODE BY HL']; -->
+      const textQueue = ['SILUS', 'GAMING', 'WORLD', ' ', 'THANK YOU...', 'SUBSCRIBERS', 'SIUSGW!', 'CODE BY HL'];
       const rand = (min, max) => Math.random() * (max - min) + min;
       const randInt = (min, max) => Math.floor(rand(min, max + 1));
       const randColor = () => FIREWORK_COLORS[randInt(0, FIREWORK_COLORS.length - 1)];
