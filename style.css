@@ -1,3 +1,4 @@
+/* fireworks/style.css for fireworks.bauska.org */
 * { margin: 0; padding: 0; box-sizing: border-box; }
     body { background: #000008; overflow: hidden; font-family: 'Press Start 2P', monospace; cursor: pointer; }
     body.demo-started { cursor: none; }
