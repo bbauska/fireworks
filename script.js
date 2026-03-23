@@ -1,3 +1,4 @@
+/* fireworks/script.js for fireworks.bauska.org */
 (function() {
       'use strict';
       const CONFIG = { PIXEL_SIZE: 5, FONT_SCALE: 24, ROCKET_SPEED: 20, GRAVITY: 0.12, FRICTION: 0.985, TEXT_HOLD_TIME: 3500, TRAIL_LENGTH: 12, STAR_COUNT: 200, MAX_ROCKETS: 50, MAX_PARTICLES: 8000, PARTICLES_PER_PIXEL: 8 };
