@@ -16,6 +16,7 @@ body.demo-started { cursor: none; }
 .title-sub { font-size: clamp(28px, 7vw, 64px); color: #ff00ff; text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff; letter-spacing: 0.06em; margin-bottom: 15px; animation: glowPulse 2s ease-in-out infinite 0.2s; }  /* 12px; */
 .title-demo { font-size: clamp(14px, 3vw, 24px); color: #ffd700; text-shadow: 0 0 15px #ffd700; letter-spacing: 0.3em; margin-bottom: 50px; }
 .title-world { font-size: clamp(14px, 3vw, 24px); color: #ff002b; text-shadow: 0 0 15px #ff002b; letter-spacing: 0.3em; margin-bottom: 50px; }
+.20k { font-size: clamp(14px, 3vw, 24px); color: #ff002b; text-shadow: 0 0 15px #ff002b; letter-spacing: 0.3em; margin-bottom: 50px; }
 @keyframes glowPulse { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.15); } }
 .click-prompt { font-size: clamp(11px, 2vw, 16px); color: #FFFFFF; animation: blink 0.8s step-end infinite; }
 @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
