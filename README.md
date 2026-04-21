@@ -1,2 +1,2 @@
-# fireworks
-Fireworks for Silus Gaming World hitting 15,000 subscribers.
+# Silus-fireworks
+Fireworks for Silus Gaming World hitting 20,000 subscribers.
