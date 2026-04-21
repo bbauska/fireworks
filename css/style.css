@@ -12,9 +12,10 @@ body.demo-started { cursor: none; }
 .corner-frame.br { bottom: 20px; right: 20px; border-color: #40FF80; border-left: none; border-top: none; }
 .title-wrap { text-align: center; animation: fadeInUp 1s ease-out; }
 @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-.title-main { font-size: clamp(36px, 9vw, 80px); color: #00FFFF; text-shadow: 0 0 20px #00FFFF, 0 0 40px #00FFFF; letter-spacing: 0.1em; margin-bottom: 8px; animation: glowPulse 2s ease-in-out infinite; }
-.title-sub { font-size: clamp(28px, 7vw, 64px); color: #FF00FF; text-shadow: 0 0 20px #FF00FF, 0 0 40px #FF00FF; letter-spacing: 0.06em; margin-bottom: 12px; animation: glowPulse 2s ease-in-out infinite 0.2s; }
-.title-demo { font-size: clamp(14px, 3vw, 24px); color: #FFD700; text-shadow: 0 0 15px #FFD700; letter-spacing: 0.3em; margin-bottom: 50px; }
+.title-main { font-size: clamp(36px, 9vw, 80px); color: #00ffff; text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff; letter-spacing: 0.1em; margin-bottom: 8px; animation: glowPulse 2s ease-in-out infinite; }
+.title-sub { font-size: clamp(28px, 7vw, 64px); color: #ff00ff; text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff; letter-spacing: 0.06em; margin-bottom: 12px; animation: glowPulse 2s ease-in-out infinite 0.2s; }
+.title-demo { font-size: clamp(14px, 3vw, 24px); color: #ffd700; text-shadow: 0 0 15px #ffd700; letter-spacing: 0.3em; margin-bottom: 50px; }
+.title-world { font-size: clamp(14px, 3vw, 24px); color: #ffd400; text-shadow: 0 0 15px #ffd400; letter-spacing: 0.3em; margin-bottom: 50px; }
 @keyframes glowPulse { 0%, 100% { filter: brightness(1); } 50% { filter: brightness(1.15); } }
 .click-prompt { font-size: clamp(11px, 2vw, 16px); color: #FFFFFF; animation: blink 0.8s step-end infinite; }
 @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
