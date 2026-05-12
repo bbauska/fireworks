@@ -1,3 +1,4 @@
+/* ./js/script.js of Silus-fireworks for fireworks.bauska.org */
 (function() {
   'use strict';
   const CONFIG = { 
