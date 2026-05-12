@@ -104,7 +104,7 @@
     '8': [[0,0,1,1,1,1,0,0],[0,1,0,0,0,0,1,0],[1,0,0,0,0,0,0,1],[0,1,0,0,0,0,1,0],[0,0,1,1,1,1,0,0],
 	  [0,1,0,0,0,0,1,0],[1,0,0,0,0,0,0,1],[0,1,0,0,0,0,1,0],[0,0,1,1,1,1,0,0],[0,0,0,0,0,0,0,0]]
   };
-  const textQueue = ['SILUS', 'GAMING', 'WORLD', 'THANK', 'YOU', 'FOR', '15,000', 'SUBSCRIBERS', 'SILUS GAMING WORLD'];
+  const textQueue = ['SILUS', 'GAMING', 'WORLD', 'THANK', 'YOU', 'FOR', '18,000', 'SUBSCRIBERS', 'SILUS GAMING WORLD'];
   const rand = (min, max) => Math.random() * (max - min) + min;
   const randInt = (min, max) => Math.floor(rand(min, max + 1));
   const randColor = () => FIREWORK_COLORS[randInt(0, FIREWORK_COLORS.length - 1)];
